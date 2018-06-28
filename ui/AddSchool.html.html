@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>School Addition</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=text] {
+    width: 40%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 22px;
+    margin-left:7px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.ADDbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.ADDbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+p.ex1 {
+    margin-right: 100px;
+    margin-bottom:100px;
+}
+</style>
+</head>
+<body>
+<img src="images\gramikhshalogo.jpg" width="10%" height="20%" align="left">
+<img src="images\gramikhshalogo.jpg" width="10%" height="20%" align="right">
+<font face="Lucida Handwriting" size="8"><center>Add a new School</center></font>
+<hr width="70%" color="red">
+<form action="/action_page.php">
+  <div class="container">
+   <hr>
+<p class="ex1">
+<object width="500" height="500" data="Untitled-1.swf" align="right"></object>
+</p>
+<p>Please fill in this form</p>
+    <label for="name"><b>Name  </b></label>
+    <input type="text" placeholder="Enter school name" name="school name" required>
+<br>
+    <label for="id"><b>Id</b></label>
+    <input type="text" placeholder="Enter id" left-margin="20px" name="id" required >
+<br>
+    <label for="location"><b>Location</b>
+    <input type="text" placeholder="Enter location" name="location">
+<br>
+    <button type="submit" class="ADDbtn">Add</button>
+  </div>
+  </div>
+</form>
+</body>
+</html>
